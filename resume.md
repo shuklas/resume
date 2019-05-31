@@ -12,7 +12,11 @@ Experience in building large, scalable, secured, distributed systems in Advertis
 * Streaming solutions (Storm) 
 * Big Data (Hive)
 
-## Experience
+## Project Experience
+### AWS Search Services
+#### Domain Lifecycle Rearchitecture 
+
+
 
 
 . 
