@@ -25,7 +25,7 @@ Familiar with several programming languages - Java, Python, C#.
 Java, Dynamodb, Elasticsearch, AWS/SWF workflow, Python
 
 #### Amazon Retail - AmazonNow (Mar 2017 - Aug 2017)
-Architect for the AmazonNow team. Worked on database migration from Oracle to Sable and Dynamodb. 
+Architect for the AmazonNow team. Worked on the project for merging PrimeNow and ANow backends
 
 ##### Technologies
 Java, Dynamodb, Sable
