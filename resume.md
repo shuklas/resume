@@ -30,8 +30,17 @@ Architect for the AmazonNow team. Worked on database migration from Oracle to Sa
 ##### Technologies
 Java, Dynamodb, Sable
 
-### Flipkart (Feb, 2014 - Mar, 2016)
-#### Ads: Auction based Pricing (Feb 2016 - )
+### Flipkart (Feb, 2014 - Mar, 2017)
+
+#### Ecommerce: Retail Seller Inventory Management (July 2016 - Mar 2017)
+Flipkart had started with a legacy monolithic system which contained entire retail flow like product creation, attribute management, supplier management, catalog. Although over time, many of these features were re-architected as a separate services, the old code base was still was still used for supplier management and retail product attributes management. After flipkart decided to move away from marketplace to OnO model, this old system became a bottle neck. It was slow, unmaintainable and hard to debug. The system was running without any development team. It required an operation support engineer full time. 
+I joined the newly created team to revamp the retail systems. Bootstrapped the team with the older system. Supported the old system during Big Billion day sales. Redesigned the system by splitting into 3 microservices. Implemented the new design. The new system was much faster processing 1M record feed files in seconds as compared to minutes earlier. There was no need for support engineers as the system was much stable.
+
+##### Technologies
+Java, HBase, MySql, Elasticsearch, RabbitMQ, Apache Camel
+
+
+#### Ads: Auction based Pricing (Feb 2016 - July 2016)
 Designed and lead the adoption of Second Price auction mechanism for Flipkart product listing Ads. I socialised the auction based pricing with the Flipkart senior management. Provided the design along with the roadmap for building the keyword feature in the system. Worked with different teams Campaign management, Reporting, Ranking to identify the impact. Prepared design covering all the components. Identified key success metric sand design for providing bid suggestions. Designed the data pipeline to aggregate the auctions data
 
 ##### Technologies
@@ -114,6 +123,49 @@ Prototype of an infrastructure for auto pricing the quotes and deals from Bloomb
 Java, FIX, Cameron, Swing, Tibco Rendezvous, Spring
 
 #### FX Trader Console Development (May, 2005 - Feb, 2006)
+Production support and enhancement of the swing based, thick client application written in Swing, connecting to the other infrastructure (Trade engine/Rate engine) exposed as JMS topics and EJB. Application was used to monitor and override the deals.
+**Role** : A part of the team of 8 developers. Key achievements are:
+* Did Enhancements and maintenance on Trader console.
+* Did Production support and onsite coordination for three months, in Chicago.
+##### Technologies
+Java, Swing, JMS
+
+#### Equilend Automation Engine Development (Dec, 2004 - May, 2005)
+Development of a java application to schedule extraction of securities lending data from the internal database and export to Equilend - a matching and settlement platform for the Securities lending transactions - after a rule based transformation. The application was implemented as a servlet. The api to manage schedule and rules were exposed using EJB and webservices, which were used by a C# gui. Rules were implemented as an xml structure. Schedule configuration and status were persisted in oracle.
+I developed the rules engine and scheduler component.
+
+##### Technologies
+Java, EJB, Hibernate, JMS, Sybase, Oracle, WebSphere, WebSphere MQ
+
+### ADP India (Jul, 2001 - Dec, 2004)
+#### ICI Impact Development (Jun, 2002 - Dec, 2004)
+IMPACT, a product of Automatic Data Processing Inc. (ADP), is a widely used application for Straight Through Processing of US Fixed Income securities used by JP Morgan, HSBC, UBS, Nomura, Mizuho and Bank Of America. It was a legacy system implemented using RPG on IBM AS400. As part of project, we were doing enhancement and porting the RPG code to java.
+**Role:** Key achievements were
+* Added Cost-of-carry IOI calculation to the system.
+* Added GSCC Real Time Clearance processing.
+* Worked as a client contact point in New York for 2 months.
+* Lead teams of size up to 7.
+* Lead the effort of code conversion from RPG to Java
+##### Technologies
+Core Java/RPG/DB2, IBM AS400, JSP, Swift
+
+#### Gloss Data Migration
+Development of data migration tool to migrate clients from the normalized Sybase tables of the legacy system (Gloss) to the new system (UPM) using xml files to store the same data. It used the client- server architecture with java based server and swing client communicating via RMI. The data was massaged using a staging Sybase database before converting to xml.
+* Designed the system and developed functional/technical specifications
+* Designing and developed the backend database schema.
+* Developed the front end of the system in Java Swing.
+* Implemented the XML parser for converting the gloss tables into XML message formats for the UPM system.
+##### Technologies
+Java Swing, Java RMI, Sybase
+
+#### GLOSS Maintenance & Support (August, 2001 - December, 2001)
+GLOSS is back-end processing engine for Equities, used by 8 of the top 20 investment banks in U.S. It was a C++ server using Sybase stored procedures.
+I provided solutions to the production issues arising in the production environment of Merrill Lynch and Goldman Sachs.
+
+
+
+
+
 
 
  
