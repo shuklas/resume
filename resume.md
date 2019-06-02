@@ -13,6 +13,8 @@ Experience in building large, scalable, secured, distributed systems in Advertis
 * Big Data (Hive)
 
 Familiar with several programming languages - Java, Python, C#.
+## Education
+BTech Computer Science (IIT Guwahati)
 
 ## Project Experience
 ### AWS Search Services
