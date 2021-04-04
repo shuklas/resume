@@ -18,10 +18,11 @@ BTech Computer Science (IIT Guwahati)
 
 ## Project Experience
 ### AWS Search Services
-#### Domain Lifecycle Re-architecture (Aug 2017 - ) 
+#### Domain Lifecycle Management (Aug 2017 - ) 
 * Architect for designing the AWS Elasticsearch cluster provisioning at scale. Cluster provisioning and management platform serves thousands of AWS/ES clusters. The cluster creation, configuration changes, version upgrades are orchestrated by this system. It ensures cluster availability and prevents data loss, across these mutations. It is also used for component deployment in the running cluster. It provides blue/green, in-place, rolling deployment support. 
 * Lead development of several other features related to security, encryption at rest/transit, master election support.
-* Lead the initiative of moving the AWS Elasticsearch release process to Continuous integration and deployment. 
+* Lead the initiative of moving the AWS Elasticsearch release process to Continuous integration and deployment, migration to python3 from python2.
+*  
 
 ##### Technologies
 Java, Dynamodb, Elasticsearch, AWS/SWF workflow, Python
