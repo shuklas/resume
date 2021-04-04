@@ -12,7 +12,7 @@ Experience in building large, scalable, secured, distributed systems in Advertis
 * Streaming solutions (Storm) 
 * Big Data (Hive)
 
-Familiar with several programming languages - Java, Python, C#.
+Familiar with several programming languages - Java, Python, C#, Golang.
 ## Education
 BTech Computer Science (IIT Guwahati)
 
