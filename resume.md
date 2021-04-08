@@ -35,8 +35,7 @@ Java, Dynamodb, Sable
 ### Flipkart (Feb, 2014 - Mar, 2017)
 
 #### Ecommerce: Retail Seller Inventory Management (July 2016 - Mar 2017)
-Flipkart had started with a legacy monolithic system which contained entire retail flow like product creation, attribute management, supplier management, catalog. Although over time, many of these features were re-architected as a separate services, the old code base was still was still used for supplier management and retail product attributes management. After flipkart decided to move away from marketplace to OnO model, this old system became a bottle neck. It was slow, unmaintainable and hard to debug. The system was running without any development team. It required an operation support engineer full time. 
-I joined the newly created team to revamp the retail systems. Bootstrapped the team with the older system. Supported the old system during Big Billion day sales. Redesigned the system by splitting into 3 microservices. Implemented the new design. The new system was much faster processing 1M record feed files in seconds as compared to minutes earlier. There was no need for support engineers as the system was much stable.
+Redesigned the flipkart retail system which was on maintainance mode without any active developer. Deep dived into the existing architecture, onboarded a new team and redesigned the system by splitting into a microservice. During the re-architecture supported the legacy by fixing and mitigating issuesduring Big Billion day sales. The new system could processing 1M record feed file in seconds as compared to half and hour earlier.
 
 ##### Technologies
 Java, HBase, MySql, Elasticsearch, RabbitMQ, Apache Camel
