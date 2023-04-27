@@ -14,10 +14,8 @@ Familiar with several programming languages - Golang, Java, Python, C#.
 BTech Computer Science (IIT Guwahati)
 
 ## Project Experience
-### AWS Search Services (Aug 2017 - ) 
-AWS Search Services is 
-* Architect for designing the AWS Elasticsearch cluster provisioning at scale. Cluster provisioning and management platform serves thousands of AWS/ES clusters. The cluster creation, configuration changes, version upgrades are orchestrated by this system. 
-* Lead development of several other features related to security, encryption at rest/transit, master election support.
+### AWS OpenSearch (Aug 2017 - ) 
+* Contribute on the architecture, roadmap, planning, performance, mentoring for the AWS OpenSearch Control plane.
 
 ##### Technologies
 Java, Dynamodb, Golang, Lambda, Elasticsearch, AWS/SWF workflow, Python, Step Functions
